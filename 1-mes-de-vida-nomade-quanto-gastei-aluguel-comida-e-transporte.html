@@ -119,6 +119,29 @@
             font-size: 0.9rem;
         }
     </style>
+
+    <style>
+        .amazon-auto-card {
+            display: flex; align-items: center; justify-content: space-between;
+            background: #fff; border: 2px solid #ff9900; border-radius: 8px;
+            padding: 20px; margin: 40px 0; text-decoration: none; color: inherit; 
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .amazon-auto-card:hover { transform: translateY(-3px); box-shadow: 0 4px 15px rgba(255,153,0,0.2); }
+        .amazon-text-area { flex: 1; }
+        .amazon-tag { font-size: 0.8rem; text-transform: uppercase; color: #ff9900; font-weight: 800; letter-spacing: 1px; margin-bottom: 5px; display: block; }
+        .amazon-title { font-size: 1.2rem; font-weight: 700; color: #111; margin-bottom: 5px; }
+        .amazon-subtitle { font-size: 0.95rem; color: #666; }
+        .amazon-btn {
+            background-color: #ffd814; color: #0f1111; font-weight: 600; padding: 10px 24px;
+            border-radius: 50px; border: 1px solid #fcd200; white-space: nowrap; margin-left: 20px;
+        }
+        @media (max-width: 600px) {
+            .amazon-auto-card { flex-direction: column; text-align: center; }
+            .amazon-btn { margin-left: 0; margin-top: 15px; width: 100%; box-sizing: border-box; }
+        }
+    </style>
+
 </head>
 <body>
 
@@ -177,9 +200,20 @@
 <h2>Prepare-se para Sua Aventura Nômade com Consciência Financeira</h2>
 <p>Este vídeo não é apenas sobre <b>quanto foi gasto</b> em um mês de vida nômade, mas sobre as lições aprendidas, as estratégias desenvolvidas e os insights práticos para manter uma vida financeiramente viável e gratificante. Ele serve como um excelente ponto de partida para qualquer um que esteja planejando sua própria jornada ou queira ter uma compreensão mais profunda da realidade de ser um <b>nômade digital</b>.</p>
 <p>Quer saber os números exatos e todos os segredos para uma <b>vida nômade mais acessível</b>? Assista ao vídeo completo "1 mês de vida nômade: quanto gastei? [aluguel, comida e transporte]" e prepare-se para planejar sua próxima aventura com confiança e um <b>orçamento</b> bem definido, evitando surpresas indesejadas!</p>
+        
+            <a href="https://www.amazon.com.br/s?k=Mochila+Viagem&tag=viniciusvmo-20" target="_blank" rel="nofollow noopener" class="amazon-auto-card">
+                <div class="amazon-text-area">
+                    <span class="amazon-tag">Recomendação Vinicius Codes</span>
+                    <div class="amazon-title">Mochila nômade: otimize seu gasto, maximize sua aventura.</div>
+                    <div class="amazon-subtitle">Busque por "Mochila Viagem" e veja as melhores ofertas.</div>
+                </div>
+                <div class="amazon-btn">Ver na Amazon</div>
+            </a>
+            
         </div>
 
         <footer>
+            <p style="font-size: 0.75rem; color: #999; margin-bottom: 10px;">Aviso: Como Participante Associado da Amazon, ganho com compras qualificadas.</p>
             <p>&copy; 2026 Vinicius Codes — São José dos Pinhais, PR.</p>
         </footer>
     </article>
