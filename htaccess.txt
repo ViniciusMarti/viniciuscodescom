@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?viniciuscodes\.com$ [NC]
+RewriteRule ^(.*)$ https://viniciuscodes.com.br/$1 [R=301,L]
